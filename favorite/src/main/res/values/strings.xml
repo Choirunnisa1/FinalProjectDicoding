@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Favorite</string>
+    <string name="FORMAT_YYY_MM_DD">yyyy-MM-dd</string>
+    <string name="FORMAT_DAY_DD_MM_YYYY">EEEE, dd MMM yyyy</string>
+    <string name="detail_movies">Overview</string>
+    <string name="judul_film">Title</string>
+    <string name="tv_judul">Good</string>
+    <string name="release">Release Date</string>
+    <string name="release_date">25 Juli 2019</string>
+    <string name="popularity">Popularity</string>
+    <string name="language">Original Language</string>
+    <string name="lang">Indonesia</string>
+    <string name="overview">Over</string>
+
+</resources>

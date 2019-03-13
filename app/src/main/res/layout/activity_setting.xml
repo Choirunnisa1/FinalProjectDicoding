@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.project.chochosan.finalproject4.helper.SettingActivity">
+
+    <LinearLayout
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="23dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setting Reminder"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_marginRight="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="#86b953"
+                android:src="@drawable/ic_clock" />
+
+            <Switch
+                android:id="@+id/switch_daily"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dailynotif" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/div_time_klik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/waktu" />
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/tv_clock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/set_waktu" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_marginRight="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_blue_light"
+                android:src="@drawable/ic_notifications" />
+
+            <Switch
+                android:id="@+id/switch_now_play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/now_play" />
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_klik_alarm"
+            android:visibility="gone"/>
+</LinearLayout>
+</LinearLayout>
